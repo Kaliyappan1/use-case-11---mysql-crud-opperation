@@ -7,6 +7,7 @@ userRoutes = require('./controllers/user.controller')
 
 app.use('/api/user',userRoutes)
 
+
 db.query("SELECT 1")
 .then(() =>{
     console.log("db connection success.")
